@@ -9,4 +9,4 @@ const ERROR_CODES = {
   INVALID_SCOPES: 40102,
 };
 
-export default ERROR_CODES;
+export { ERROR_CODES };
