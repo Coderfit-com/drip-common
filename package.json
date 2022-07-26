@@ -10,11 +10,8 @@
       "scopeHoist": false,
       "sourceMap": false
     },
-    "constants": {
-      "source": "./src/constants/index.ts"
-    },
-    "utils": {
-      "source": "./src/utils/index.ts"
+    "main": {
+      "source": "./src/index.ts"
     }
   },
   "main": "dist/index.js",
