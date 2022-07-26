@@ -2,8 +2,8 @@
   "name": "drip-common",
   "version": "0.0.1",
   "description": "Drip common types and utilities.",
-  "main": "dist/index.js",
-  "types": "dist/types.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "tsc": "tsc -m es6 --outDir lib",
     "dev": "webpack --progress --watch --env dev",
