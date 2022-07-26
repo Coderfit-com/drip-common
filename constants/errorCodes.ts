@@ -1,6 +1,8 @@
 const ERROR_CODES = {
   // General
   TIMEOUT: 504,
+  SERVICE_UNAVAILABLE: 503,
+  FAILED_FETCH: 50301,
 
   // Authentication
   INVALID_GRANT: 40101,
