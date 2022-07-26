@@ -1,4 +1,7 @@
-var templateVariables = {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.templateVariables = void 0;
+const templateVariables = {
     '{{first_name}}': 'firstName',
     '{{last_name}}': 'lastName',
     '{{company}}': 'company',
@@ -6,5 +9,4 @@ var templateVariables = {
     '{{title}}': 'title',
     '{{day_of_week}}': 'day_of_week',
 };
-export { templateVariables };
-//# sourceMappingURL=templates.js.map
+exports.templateVariables = templateVariables;

@@ -5,9 +5,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
-    "tsc": "tsc -m es6 --outDir lib",
-    "dev": "webpack --progress --watch --env dev",
-    "build": "yarn tsc && webpack --env build",
+    "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "browserslist": "> 0.5%, last 2 versions, not dead",

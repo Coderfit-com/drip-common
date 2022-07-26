@@ -1,1 +1,0 @@
-{"version":3,"file":"templates.js","sourceRoot":"","sources":["../../constants/templates.ts"],"names":[],"mappings":"AAAA,IAAM,iBAAiB,GAAG;IACxB,gBAAgB,EAAE,WAAW;IAC7B,eAAe,EAAE,UAAU;IAC3B,aAAa,EAAE,SAAS;IACxB,cAAc,EAAE,UAAU;IAC1B,WAAW,EAAE,OAAO;IACpB,iBAAiB,EAAE,aAAa;CACjC,CAAC;AAEF,OAAO,EAAE,iBAAiB,EAAE,CAAC"}
