@@ -16,19 +16,14 @@ function $parcel$exportWildcard(dest, source) {
 
   return dest;
 }
-function $parcel$defineInteropFlag(a) {
-  Object.defineProperty(a, '__esModule', {value: true, configurable: true});
-}
 function $parcel$export(e, n, v, s) {
   Object.defineProperty(e, n, {get: v, set: s, enumerable: true, configurable: true});
 }
 var $fc6e4adc3e3ac054$exports = {};
 var $e39562c7a912860d$exports = {};
 
-$parcel$defineInteropFlag($e39562c7a912860d$exports);
-
-$parcel$export($e39562c7a912860d$exports, "default", function () { return $e39562c7a912860d$export$2e2bcd8739ae039; });
-const $e39562c7a912860d$var$ERROR_CODES = {
+$parcel$export($e39562c7a912860d$exports, "ERROR_CODES", function () { return $e39562c7a912860d$export$28ba0a5263dd89b0; });
+const $e39562c7a912860d$export$28ba0a5263dd89b0 = {
     // General
     TIMEOUT: 504,
     SERVICE_UNAVAILABLE: 503,
@@ -37,7 +32,6 @@ const $e39562c7a912860d$var$ERROR_CODES = {
     INVALID_GRANT: 40101,
     INVALID_SCOPES: 40102
 };
-var $e39562c7a912860d$export$2e2bcd8739ae039 = $e39562c7a912860d$var$ERROR_CODES;
 
 
 var $36a3bf1160e4e3be$exports = {};
