@@ -1,9 +1,16 @@
-interface Response<T = void> {
-  status: 'error' | 'success';
+interface ResponseSuccess<T = void> {
+  status: 'success';
   message: string;
   id?: string;
-  statusCode?: number;
   data?: T;
 }
 
-export type { Response };
+interface ResponseError {
+  error: string;
+  message: string;
+  statusCode: number;
+}
+
+type Response = ResponseSuccess | ResponseError;
+
+export type { ResponseSuccess, ResponseError, Response };
