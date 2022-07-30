@@ -11,6 +11,6 @@ interface ResponseError {
   statusCode: number;
 }
 
-type Response = ResponseSuccess | ResponseError;
+type Response<T = void> = ResponseSuccess<T> | ResponseError;
 
 export type { ResponseSuccess, ResponseError, Response };
