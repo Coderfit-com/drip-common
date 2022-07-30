@@ -1,15 +1,16 @@
 interface ResponseSuccess<T = void> {
-  status: 'success';
-  message: string;
+  status: 'ok';
   id?: string;
   data?: T;
 }
 
 interface ResponseError {
+  status: 'error';
   error: string;
   message: string;
   statusCode: number;
 }
+
 
 type Response<T = void> = ResponseSuccess<T> | ResponseError;
 
