@@ -19,3 +19,4 @@ __exportStar(require("./object"), exports);
 __exportStar(require("./promise"), exports);
 __exportStar(require("./string"), exports);
 __exportStar(require("./time"), exports);
+__exportStar(require("./http"), exports);
