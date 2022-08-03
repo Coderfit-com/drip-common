@@ -1,6 +1,7 @@
 
 {
   "compilerOptions": {
+    "lib": ["es2021"],
     "module": "commonjs",
     "declaration": true,
     "noImplicitAny": false,
@@ -8,7 +9,7 @@
     "noLib": false,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "target": "es6",
+    "target": "es2017",
     "sourceMap": false,
     "outDir": "./dist",
     "skipLibCheck": true
