@@ -11,7 +11,7 @@ function composeWithVariables<T>({
   template,
   data,
   addLinebreaks = false,
-}: ComposeMessageProps<T & { firstLine: string }>): string {
+}: ComposeMessageProps<T>): string {
   let tmp = template;
   const dayOfWeek = DateTime.local({ locale: 'en' }).weekdayLong;
 
