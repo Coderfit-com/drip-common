@@ -1,7 +1,8 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./constants",
+    "outDir": "./",
   },
   "include": [ "lib/constants/*" ],
+  "exclude": [ "lib/utils/*" ]
 }
